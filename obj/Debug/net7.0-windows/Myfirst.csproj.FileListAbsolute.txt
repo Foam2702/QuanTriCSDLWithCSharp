@@ -1,0 +1,15 @@
+C:\Users\Admin\Desktop\Myfirst\bin\Debug\net7.0-windows\Myfirst.exe
+C:\Users\Admin\Desktop\Myfirst\bin\Debug\net7.0-windows\Myfirst.deps.json
+C:\Users\Admin\Desktop\Myfirst\bin\Debug\net7.0-windows\Myfirst.runtimeconfig.json
+C:\Users\Admin\Desktop\Myfirst\bin\Debug\net7.0-windows\Myfirst.dll
+C:\Users\Admin\Desktop\Myfirst\bin\Debug\net7.0-windows\Myfirst.pdb
+C:\Users\Admin\Desktop\Myfirst\obj\Debug\net7.0-windows\Myfirst.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\Myfirst\obj\Debug\net7.0-windows\Myfirst.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Desktop\Myfirst\obj\Debug\net7.0-windows\Myfirst.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\Myfirst\obj\Debug\net7.0-windows\Myfirst.AssemblyInfo.cs
+C:\Users\Admin\Desktop\Myfirst\obj\Debug\net7.0-windows\Myfirst.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\Myfirst\obj\Debug\net7.0-windows\Myfirst.dll
+C:\Users\Admin\Desktop\Myfirst\obj\Debug\net7.0-windows\refint\Myfirst.dll
+C:\Users\Admin\Desktop\Myfirst\obj\Debug\net7.0-windows\Myfirst.pdb
+C:\Users\Admin\Desktop\Myfirst\obj\Debug\net7.0-windows\Myfirst.genruntimeconfig.cache
+C:\Users\Admin\Desktop\Myfirst\obj\Debug\net7.0-windows\ref\Myfirst.dll
