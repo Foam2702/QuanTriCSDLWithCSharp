@@ -1,6 +1,6 @@
 namespace Myfirst;
 
-partial class ListRoles
+partial class UpdateRole
 {
     /// <summary>
     ///  Required designer variable.
@@ -67,19 +67,6 @@ partial class ListRoles
         button.Size=new Size(250,60);
         button.Font=new Font(button.Font.FontFamily, 12, button.Font.Style);
         this.Controls.Add(button);
-
-        button.Click += myButton_Click;
-        void myButton_Click(object sender, EventArgs e)
-        {   
-            if (selectedButton != null) // Nếu đã có button được chọn
-            {
-                selectedButton.BackColor = SystemColors.Control;
-                selectedButton.Enabled = true; // Enable button trước đó
-            }
-            selectedButton = button; // Gán selectedButton bằng button mới
-            button.BackColor=Color.SkyBlue;
-            button.Enabled = false; // Disable button đang được chọn
-        }
     }
     private void CreateButtonLeft2()
     {
@@ -89,19 +76,6 @@ partial class ListRoles
         button.Size=new Size(250,60);
         button.Font=new Font(button.Font.FontFamily, 12, button.Font.Style);
         this.Controls.Add(button);
-
-        button.Click += myButton_Click;
-        void myButton_Click(object sender, EventArgs e)
-        {   
-            if (selectedButton != null) // Nếu đã có button được chọn
-            {
-                selectedButton.BackColor = SystemColors.Control;
-                selectedButton.Enabled = true; // Enable button trước đó
-            }
-            selectedButton = button; // Gán selectedButton bằng button mới
-            button.BackColor=Color.SkyBlue;
-            button.Enabled = false; // Disable button đang được chọn
-        }
     }
 
     private void CreateButtonLeft3()
@@ -112,18 +86,6 @@ partial class ListRoles
         button.Size=new Size(250,60);
         button.Font=new Font(button.Font.FontFamily, 12, button.Font.Style);
         this.Controls.Add(button);
-        button.Click += myButton_Click;
-        void myButton_Click(object sender, EventArgs e)
-        {   
-            if (selectedButton != null) // Nếu đã có button được chọn
-            {
-                selectedButton.BackColor = SystemColors.Control;
-                selectedButton.Enabled = true; // Enable button trước đó
-            }
-            selectedButton = button; // Gán selectedButton bằng button mới
-            button.BackColor=Color.SkyBlue;
-            button.Enabled = false; // Disable button đang được chọn
-        }
     }
 
     private void CreateButtonLeft4()
@@ -134,18 +96,6 @@ partial class ListRoles
         button.Size=new Size(250,60);
         button.Font=new Font(button.Font.FontFamily, 12, button.Font.Style);
         this.Controls.Add(button);
-        button.Click += myButton_Click;
-        void myButton_Click(object sender, EventArgs e)
-        {   
-            if (selectedButton != null) // Nếu đã có button được chọn
-            {
-                selectedButton.BackColor = SystemColors.Control;
-                selectedButton.Enabled = true; // Enable button trước đó
-            }
-            selectedButton = button; // Gán selectedButton bằng button mới
-            button.BackColor=Color.SkyBlue;
-            button.Enabled = false; // Disable button đang được chọn
-        }
     }
     private void CreateMainLabel()
     {
@@ -244,9 +194,6 @@ partial class ListRoles
         }
     }
 
-    
-
-    
 
     #endregion
 }

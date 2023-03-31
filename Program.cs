@@ -13,12 +13,9 @@ static class Program
         ApplicationConfiguration.Initialize();
         //Application.Run(new Login());
         // Application.Run(new MainWindow());
-
+        Application.Run(new ListRoles());
         //Application.Run(new ListOfUsers());
         // Application.Run(new UserPrivileges());
-        Application.Run(new UserEditPrivileges());
+        //Application.Run(new UserEditPrivileges());
     }
-    //Application.Run(new ListOfUsers());
-    //Application.Run(new UserPrivileges());
-
 }
