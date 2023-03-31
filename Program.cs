@@ -18,6 +18,5 @@ static class Program
         //Application.Run(new ListOfUsers());
         // Application.Run(new UserPrivileges());
         //Application.Run(new UserEditPrivileges());
-        Oracle.ConnectOracle();
     }
 }
