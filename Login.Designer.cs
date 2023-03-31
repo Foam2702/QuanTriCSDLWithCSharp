@@ -46,8 +46,9 @@ partial class Login
 
     private void CreateLabel()
     {
+        //string[] rs=Oracle.ConnectOracle();
         Label title1 = new Label();
-        title1.Text = "LOGIN SYSTEM";
+        title1.Text = "LOGIN";
         title1.Location = new Point(350, 20);
         title1.Size = new Size(500, 60);
         title1.Font = new Font(title1.Font.FontFamily, 18, title1.Font.Style);

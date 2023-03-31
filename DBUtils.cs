@@ -35,7 +35,7 @@ static class DBOracleUtils
             int port = 1521;
             string sid = "xe";
             string user = "sys";
-            string password = "123";
+            string password = "1234567890";
             return DBOracleUtils.GetDBConnection(host, port, sid, user, password);
         }
     }
