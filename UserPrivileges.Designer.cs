@@ -60,16 +60,6 @@ partial class UserPrivileges
         this.Controls.Add(title1);
     }
     
-    private void CreateLabelRole()
-    {
-        Label title1 = new Label();
-        title1.Text = "USERS'S Privileges";
-        title1.Location = new Point(350, 20);
-        title1.Size = new Size(500, 60);
-        title1.Font = new Font(title1.Font.FontFamily, 18, title1.Font.Style);
-        this.Controls.Add(title1);
-    }
-    
     private void CreateRoleLabel()
     {
         Label title1 = new Label();
