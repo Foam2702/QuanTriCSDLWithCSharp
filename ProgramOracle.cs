@@ -55,7 +55,7 @@ namespace Myfirst;
 
 static class Oracle
 {
-    public static string[] ConnectOracle()
+    public static void ConnectOracle()
     {
 
         OracleConnection conn = DBUtils.GetDBConnection();
@@ -83,13 +83,19 @@ static class Oracle
         string[] arr = new string[20];
         while (dr.Read())
         {
-            arr[i] = dr["TENTHUVIEN"].ToString();
-            i++;
-        }
+            // arr[i] = dr["TENTHUVIEN"].ToString();
 
+            // i++;
+            Console.WriteLine(dr["TENTHUVIEN"].ToString());
+
+        }
+        // for (int j = 0; i < arr.Length; j++)
+        // {
+        //     Console.WriteLine(arr[j]);
+        // }
         conn.Close();
         Console.Read();
-        return arr;
+
 
     }
 }
