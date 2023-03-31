@@ -8,45 +8,86 @@ using System.Configuration;
 using Oracle.ManagedDataAccess.Types;
 
 using Oracle.ManagedDataAccess.Client;
-using static SqlConn.DBOracleUtils;
+using static Myfirst.DBOracleUtils;
 
-namespace ConnectOracleWithoutClient
+// namespace ConnectOracleWithoutClient
+// {
+//     static class Program
+//     {
+//         static void Main(string[] args)
+//         {
+
+//             OracleConnection conn = DBUtils.GetDBConnection();
+
+//             Console.WriteLine("Get Connection: " + conn);
+//             try
+//             {
+//                 conn.Open();
+
+//                 Console.WriteLine(conn.ConnectionString, "Successful Connection");
+//             }
+//             catch (Exception ex)
+//             {
+//                 Console.WriteLine("## ERROR: " + ex.Message);
+//                 Console.Read();
+//                 return;
+//             }
+
+//             Console.WriteLine("Connection successful!");
+//             OracleCommand cmd = new OracleCommand();
+//             cmd.CommandText = "select * from  THUVIEN";
+//             cmd.Connection = conn;
+//             OracleDataReader dr = cmd.ExecuteReader();
+//             Console.OutputEncoding = Encoding.UTF8; //chuyển sang UTF8
+
+//             while (dr.Read())
+//             {
+//                 Console.Write(dr["MATHUVIEN"].ToString() + "\n");
+//                 Console.Write(dr["TENTHUVIEN"].ToString() + "\n");
+//             }
+//             conn.Close();
+//             Console.Read();
+//         }
+//     }
+// }
+
+namespace Myfirst;
+
+static class Oracle
 {
-    static class Program
+    public static void ConnectOracle(string[] args)
     {
-        static void Main(string[] args)
+
+        OracleConnection conn = DBUtils.GetDBConnection();
+
+        Console.WriteLine("Get Connection: " + conn);
+        try
         {
+            conn.Open();
 
-            OracleConnection conn = DBUtils.GetDBConnection();
-
-            Console.WriteLine("Get Connection: " + conn);
-            try
-            {
-                conn.Open();
-
-                Console.WriteLine(conn.ConnectionString, "Successful Connection");
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine("## ERROR: " + ex.Message);
-                Console.Read();
-                return;
-            }
-
-            Console.WriteLine("Connection successful!");
-            OracleCommand cmd = new OracleCommand();
-            cmd.CommandText = "select * from  THUVIEN";
-            cmd.Connection = conn;
-            OracleDataReader dr = cmd.ExecuteReader();
-            Console.OutputEncoding = Encoding.UTF8; //chuyển sang UTF8
-
-            while (dr.Read())
-            {
-                Console.Write(dr["MATHUVIEN"].ToString() + "\n");
-                Console.Write(dr["TENTHUVIEN"].ToString() + "\n");
-            }
-            conn.Close();
-            Console.Read();
+            Console.WriteLine(conn.ConnectionString, "Successful Connection");
         }
+        catch (Exception ex)
+        {
+            Console.WriteLine("## ERROR: " + ex.Message);
+            Console.Read();
+            return;
+        }
+
+        Console.WriteLine("Connection successful!");
+        OracleCommand cmd = new OracleCommand();
+        cmd.CommandText = "select * from  THUVIEN";
+        cmd.Connection = conn;
+        OracleDataReader dr = cmd.ExecuteReader();
+        Console.OutputEncoding = Encoding.UTF8; //chuyển sang UTF8
+
+        while (dr.Read())
+        {
+            Console.Write(dr["MATHUVIEN"].ToString() + "\n");
+            Console.Write(dr["TENTHUVIEN"].ToString() + "\n");
+        }
+        conn.Close();
+        Console.Read();
     }
 }
+
