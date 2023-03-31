@@ -122,6 +122,8 @@ partial class ListOfUsers
         nextbutton.Size=new Size(120,50);
         nextbutton.Text="Next";
         mainlabel.Controls.Add(nextbutton);
+    
+
 
         Button addbutton=new Button();
         addbutton.Location=new Point(420,520);

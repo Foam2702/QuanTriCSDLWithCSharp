@@ -78,48 +78,50 @@ partial class MainWindow
     private void CreateMainLabel()
     {
         Label mainlabel=new Label();
-        mainlabel.Location=new Point(100,100);
-        mainlabel.Size=new Size(800,600);
+        mainlabel.Location=new Point(100,150);
+        mainlabel.Size=new Size(800,300);
         mainlabel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
         mainlabel.Font = new Font(mainlabel.Font.FontFamily, 14, mainlabel.Font.Style);
         this.Controls.Add(mainlabel);
 
         Button button1=new Button();
-        button1.Location=new Point(200,20);
+        button1.Location=new Point(200,50);
         button1.Size=new Size(350,50);
+        button1.Text="List of Users";
         button1.Font = new Font(button1.Font.FontFamily, 14, button1.Font.Style);
         mainlabel.Controls.Add(button1);
+        button1.Click += myButton_Click;
+        void myButton_Click(object sender, EventArgs e)
+        {   
+            if (selectedButton != null) // Nếu đã có button được chọn
+            {
+                selectedButton.BackColor = SystemColors.Control;
+                selectedButton.Enabled = true; // Enable button trước đó
+            }
+            selectedButton = button1; // Gán selectedButton bằng button mới
+            button1.BackColor=Color.Gray;
+            button1.Enabled = false; // Disable button đang được chọn
+        }
 
         Button button2=new Button();
-        button2.Location=new Point(200,120);
+        button2.Location=new Point(200,170);
         button2.Size=new Size(350,50);
+        button2.Text="List of Role";
         button2.Font = new Font(button2.Font.FontFamily, 14, button2.Font.Style);
         mainlabel.Controls.Add(button2);
 
-        Button button3=new Button();
-        button3.Location=new Point(200,220);
-        button3.Size=new Size(350,50);
-        button3.Font = new Font(button3.Font.FontFamily, 14, button3.Font.Style);
-        mainlabel.Controls.Add(button3);
-
-        Button button4=new Button();
-        button4.Location=new Point(200,320);
-        button4.Size=new Size(350,50);
-        button4.Font = new Font(button4.Font.FontFamily, 14, button4.Font.Style);
-        mainlabel.Controls.Add(button4);
-
-        Button button5=new Button();
-        button5.Location=new Point(200,420);
-        button5.Size=new Size(350,50);
-        button5.Font = new Font(button5.Font.FontFamily, 14, button5.Font.Style);
-        mainlabel.Controls.Add(button5);
-
-        Button button6=new Button();
-        button6.Location=new Point(200,520);
-        button6.Size=new Size(350,50);
-        button6.Font = new Font(button6.Font.FontFamily, 14, button6.Font.Style);
-        mainlabel.Controls.Add(button6);
-         
+        button2.Click += myButton_Click1;
+        void myButton_Click1(object sender, EventArgs e)
+        {   
+            if (selectedButton != null) // Nếu đã có button được chọn
+            {
+                selectedButton.BackColor = SystemColors.Control;
+                selectedButton.Enabled = true; // Enable button trước đó
+            }
+            selectedButton = button2; // Gán selectedButton bằng button mới
+            button2.BackColor=Color.Gray;
+            button2.Enabled = false; // Disable button đang được chọn
+        }
     }
 
     #endregion
