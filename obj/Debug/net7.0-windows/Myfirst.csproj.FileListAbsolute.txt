@@ -28,3 +28,11 @@ F:\ATBM HTTT\ĐỒ ÁN\Phần hệ 1\QuanTriCSDLWithCSharp\obj\Debug\net7.0-wind
 F:\ATBM HTTT\ĐỒ ÁN\Phần hệ 1\QuanTriCSDLWithCSharp\obj\Debug\net7.0-windows\Myfirst.pdb
 F:\ATBM HTTT\ĐỒ ÁN\Phần hệ 1\QuanTriCSDLWithCSharp\obj\Debug\net7.0-windows\Myfirst.genruntimeconfig.cache
 F:\ATBM HTTT\ĐỒ ÁN\Phần hệ 1\QuanTriCSDLWithCSharp\obj\Debug\net7.0-windows\ref\Myfirst.dll
+D:\SecurityInformation\SecurityAndPrivacyInDB\Project\QuanTriCSDLWithCSharp\obj\Debug\net7.0-windows\Myfirst.csproj.AssemblyReference.cache
+D:\SecurityInformation\SecurityAndPrivacyInDB\Project\QuanTriCSDLWithCSharp\obj\Debug\net7.0-windows\Myfirst.GeneratedMSBuildEditorConfig.editorconfig
+D:\SecurityInformation\SecurityAndPrivacyInDB\Project\QuanTriCSDLWithCSharp\obj\Debug\net7.0-windows\Myfirst.AssemblyInfoInputs.cache
+D:\SecurityInformation\SecurityAndPrivacyInDB\Project\QuanTriCSDLWithCSharp\obj\Debug\net7.0-windows\Myfirst.AssemblyInfo.cs
+D:\SecurityInformation\SecurityAndPrivacyInDB\Project\QuanTriCSDLWithCSharp\obj\Debug\net7.0-windows\Myfirst.csproj.CoreCompileInputs.cache
+D:\SecurityInformation\SecurityAndPrivacyInDB\Project\QuanTriCSDLWithCSharp\obj\Debug\net7.0-windows\Myfirst.dll
+D:\SecurityInformation\SecurityAndPrivacyInDB\Project\QuanTriCSDLWithCSharp\obj\Debug\net7.0-windows\refint\Myfirst.dll
+D:\SecurityInformation\SecurityAndPrivacyInDB\Project\QuanTriCSDLWithCSharp\obj\Debug\net7.0-windows\Myfirst.pdb
