@@ -13,3 +13,18 @@ C:\Users\Admin\Desktop\Myfirst\obj\Debug\net7.0-windows\refint\Myfirst.dll
 C:\Users\Admin\Desktop\Myfirst\obj\Debug\net7.0-windows\Myfirst.pdb
 C:\Users\Admin\Desktop\Myfirst\obj\Debug\net7.0-windows\Myfirst.genruntimeconfig.cache
 C:\Users\Admin\Desktop\Myfirst\obj\Debug\net7.0-windows\ref\Myfirst.dll
+F:\ATBM HTTT\ĐỒ ÁN\Phần hệ 1\QuanTriCSDLWithCSharp\bin\Debug\net7.0-windows\Myfirst.exe
+F:\ATBM HTTT\ĐỒ ÁN\Phần hệ 1\QuanTriCSDLWithCSharp\bin\Debug\net7.0-windows\Myfirst.deps.json
+F:\ATBM HTTT\ĐỒ ÁN\Phần hệ 1\QuanTriCSDLWithCSharp\bin\Debug\net7.0-windows\Myfirst.runtimeconfig.json
+F:\ATBM HTTT\ĐỒ ÁN\Phần hệ 1\QuanTriCSDLWithCSharp\bin\Debug\net7.0-windows\Myfirst.dll
+F:\ATBM HTTT\ĐỒ ÁN\Phần hệ 1\QuanTriCSDLWithCSharp\bin\Debug\net7.0-windows\Myfirst.pdb
+F:\ATBM HTTT\ĐỒ ÁN\Phần hệ 1\QuanTriCSDLWithCSharp\obj\Debug\net7.0-windows\Myfirst.csproj.AssemblyReference.cache
+F:\ATBM HTTT\ĐỒ ÁN\Phần hệ 1\QuanTriCSDLWithCSharp\obj\Debug\net7.0-windows\Myfirst.GeneratedMSBuildEditorConfig.editorconfig
+F:\ATBM HTTT\ĐỒ ÁN\Phần hệ 1\QuanTriCSDLWithCSharp\obj\Debug\net7.0-windows\Myfirst.AssemblyInfoInputs.cache
+F:\ATBM HTTT\ĐỒ ÁN\Phần hệ 1\QuanTriCSDLWithCSharp\obj\Debug\net7.0-windows\Myfirst.AssemblyInfo.cs
+F:\ATBM HTTT\ĐỒ ÁN\Phần hệ 1\QuanTriCSDLWithCSharp\obj\Debug\net7.0-windows\Myfirst.csproj.CoreCompileInputs.cache
+F:\ATBM HTTT\ĐỒ ÁN\Phần hệ 1\QuanTriCSDLWithCSharp\obj\Debug\net7.0-windows\Myfirst.dll
+F:\ATBM HTTT\ĐỒ ÁN\Phần hệ 1\QuanTriCSDLWithCSharp\obj\Debug\net7.0-windows\refint\Myfirst.dll
+F:\ATBM HTTT\ĐỒ ÁN\Phần hệ 1\QuanTriCSDLWithCSharp\obj\Debug\net7.0-windows\Myfirst.pdb
+F:\ATBM HTTT\ĐỒ ÁN\Phần hệ 1\QuanTriCSDLWithCSharp\obj\Debug\net7.0-windows\Myfirst.genruntimeconfig.cache
+F:\ATBM HTTT\ĐỒ ÁN\Phần hệ 1\QuanTriCSDLWithCSharp\obj\Debug\net7.0-windows\ref\Myfirst.dll
