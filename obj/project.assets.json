@@ -746,19 +746,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ADMIN\\.nuget\\packages\\": {}
+    "C:\\Users\\Admin\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\SecurityInformation\\SecurityAndPrivacyInDB\\Project\\QuanTriCSDLWithCSharp\\Myfirst.csproj",
+      "projectUniqueName": "D:\\HocKy6\\An_toan_bao_mat_httt\\Project\\Phanhe1\\QuanTriCSDLWithCSharp\\Myfirst.csproj",
       "projectName": "Myfirst",
-      "projectPath": "D:\\SecurityInformation\\SecurityAndPrivacyInDB\\Project\\QuanTriCSDLWithCSharp\\Myfirst.csproj",
-      "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-      "outputPath": "D:\\SecurityInformation\\SecurityAndPrivacyInDB\\Project\\QuanTriCSDLWithCSharp\\obj\\",
+      "projectPath": "D:\\HocKy6\\An_toan_bao_mat_httt\\Project\\Phanhe1\\QuanTriCSDLWithCSharp\\Myfirst.csproj",
+      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+      "outputPath": "D:\\HocKy6\\An_toan_bao_mat_httt\\Project\\Phanhe1\\QuanTriCSDLWithCSharp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0-windows"
