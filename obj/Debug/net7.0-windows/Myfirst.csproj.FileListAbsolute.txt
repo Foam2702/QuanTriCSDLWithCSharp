@@ -36,3 +36,16 @@ D:\SecurityInformation\SecurityAndPrivacyInDB\Project\QuanTriCSDLWithCSharp\obj\
 D:\SecurityInformation\SecurityAndPrivacyInDB\Project\QuanTriCSDLWithCSharp\obj\Debug\net7.0-windows\Myfirst.dll
 D:\SecurityInformation\SecurityAndPrivacyInDB\Project\QuanTriCSDLWithCSharp\obj\Debug\net7.0-windows\refint\Myfirst.dll
 D:\SecurityInformation\SecurityAndPrivacyInDB\Project\QuanTriCSDLWithCSharp\obj\Debug\net7.0-windows\Myfirst.pdb
+D:\SecurityInformation\SecurityAndPrivacyInDB\Project\QuanTriCSDLWithCSharp\bin\Debug\net7.0-windows\Myfirst.exe
+D:\SecurityInformation\SecurityAndPrivacyInDB\Project\QuanTriCSDLWithCSharp\bin\Debug\net7.0-windows\Myfirst.deps.json
+D:\SecurityInformation\SecurityAndPrivacyInDB\Project\QuanTriCSDLWithCSharp\bin\Debug\net7.0-windows\Myfirst.runtimeconfig.json
+D:\SecurityInformation\SecurityAndPrivacyInDB\Project\QuanTriCSDLWithCSharp\bin\Debug\net7.0-windows\Myfirst.dll
+D:\SecurityInformation\SecurityAndPrivacyInDB\Project\QuanTriCSDLWithCSharp\bin\Debug\net7.0-windows\Myfirst.pdb
+D:\SecurityInformation\SecurityAndPrivacyInDB\Project\QuanTriCSDLWithCSharp\bin\Debug\net7.0-windows\Oracle.ManagedDataAccess.dll
+D:\SecurityInformation\SecurityAndPrivacyInDB\Project\QuanTriCSDLWithCSharp\bin\Debug\net7.0-windows\System.DirectoryServices.Protocols.dll
+D:\SecurityInformation\SecurityAndPrivacyInDB\Project\QuanTriCSDLWithCSharp\bin\Debug\net7.0-windows\runtimes\linux\lib\netcoreapp2.0\System.DirectoryServices.Protocols.dll
+D:\SecurityInformation\SecurityAndPrivacyInDB\Project\QuanTriCSDLWithCSharp\bin\Debug\net7.0-windows\runtimes\osx\lib\netcoreapp2.0\System.DirectoryServices.Protocols.dll
+D:\SecurityInformation\SecurityAndPrivacyInDB\Project\QuanTriCSDLWithCSharp\bin\Debug\net7.0-windows\runtimes\win\lib\netcoreapp2.0\System.DirectoryServices.Protocols.dll
+D:\SecurityInformation\SecurityAndPrivacyInDB\Project\QuanTriCSDLWithCSharp\obj\Debug\net7.0-windows\Myfirst.csproj.CopyComplete
+D:\SecurityInformation\SecurityAndPrivacyInDB\Project\QuanTriCSDLWithCSharp\obj\Debug\net7.0-windows\Myfirst.genruntimeconfig.cache
+D:\SecurityInformation\SecurityAndPrivacyInDB\Project\QuanTriCSDLWithCSharp\obj\Debug\net7.0-windows\ref\Myfirst.dll
