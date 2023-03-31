@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "F:\\ATBM HTTT\\ĐỒ ÁN\\Phần hệ 1\\QuanTriCSDLWithCSharp\\Myfirst.csproj": {}
+    "D:\\SecurityInformation\\SecurityAndPrivacyInDB\\Project\\QuanTriCSDLWithCSharp\\Myfirst.csproj": {}
   },
   "projects": {
-    "F:\\ATBM HTTT\\ĐỒ ÁN\\Phần hệ 1\\QuanTriCSDLWithCSharp\\Myfirst.csproj": {
+    "D:\\SecurityInformation\\SecurityAndPrivacyInDB\\Project\\QuanTriCSDLWithCSharp\\Myfirst.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\ATBM HTTT\\ĐỒ ÁN\\Phần hệ 1\\QuanTriCSDLWithCSharp\\Myfirst.csproj",
+        "projectUniqueName": "D:\\SecurityInformation\\SecurityAndPrivacyInDB\\Project\\QuanTriCSDLWithCSharp\\Myfirst.csproj",
         "projectName": "Myfirst",
-        "projectPath": "F:\\ATBM HTTT\\ĐỒ ÁN\\Phần hệ 1\\QuanTriCSDLWithCSharp\\Myfirst.csproj",
-        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "F:\\ATBM HTTT\\ĐỒ ÁN\\Phần hệ 1\\QuanTriCSDLWithCSharp\\obj\\",
+        "projectPath": "D:\\SecurityInformation\\SecurityAndPrivacyInDB\\Project\\QuanTriCSDLWithCSharp\\Myfirst.csproj",
+        "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
+        "outputPath": "D:\\SecurityInformation\\SecurityAndPrivacyInDB\\Project\\QuanTriCSDLWithCSharp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0-windows"
@@ -37,6 +37,12 @@
       "frameworks": {
         "net7.0-windows7.0": {
           "targetAlias": "net7.0-windows",
+          "dependencies": {
+            "Oracle.ManagedDataAccess.Core": {
+              "target": "Package",
+              "version": "[3.21.90, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
