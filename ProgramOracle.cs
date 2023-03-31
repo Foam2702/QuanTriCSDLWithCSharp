@@ -55,7 +55,7 @@ namespace Myfirst;
 
 static class Oracle
 {
-    public static void ConnectOracle(string[] args)
+    public static string[] ConnectOracle()
     {
 
         OracleConnection conn = DBUtils.GetDBConnection();
@@ -71,7 +71,6 @@ static class Oracle
         {
             Console.WriteLine("## ERROR: " + ex.Message);
             Console.Read();
-            return;
         }
 
         Console.WriteLine("Connection successful!");
@@ -80,12 +79,19 @@ static class Oracle
         cmd.Connection = conn;
         OracleDataReader dr = cmd.ExecuteReader();
         Console.OutputEncoding = Encoding.UTF8; //chuyển sang UTF8
-
+        int count = 0;
         while (dr.Read())
         {
-            Console.Write(dr["MATHUVIEN"].ToString() + "\n");
-            Console.Write(dr["TENTHUVIEN"].ToString() + "\n");
+            count++;
         }
+        string[] arr = new string[count];
+        for (int i = 0; i < count; i++)
+        {
+            dr.Read();
+            arr[i] = dr["TENTHUVIEN"].ToString();
+        }
+
+        return arr;
         conn.Close();
         Console.Read();
     }
