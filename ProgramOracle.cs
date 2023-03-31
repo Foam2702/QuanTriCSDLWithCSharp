@@ -53,10 +53,17 @@ using static Myfirst.DBOracleUtils;
 
 namespace Myfirst;
 
-static class Oracle
+public class Oracle
 {
-    public static void ConnectOracle()
+    public void Test()
     {
+        Console.WriteLine("Oracle");
+
+    }
+    public string[] ConnectOracle()
+    {
+        Console.WriteLine("Oracle");
+
 
         OracleConnection conn = DBUtils.GetDBConnection();
 
@@ -79,22 +86,24 @@ static class Oracle
         cmd.Connection = conn;
         OracleDataReader dr = cmd.ExecuteReader();
         Console.OutputEncoding = Encoding.UTF8; //chuyển sang UTF8
-        int i = 0;
         string[] arr = new string[20];
+        int i = 0;
         while (dr.Read())
         {
-            // arr[i] = dr["TENTHUVIEN"].ToString();
+            arr[i] = dr["TENTHUVIEN"].ToString();
 
-            // i++;
-            Console.WriteLine(dr["TENTHUVIEN"].ToString());
+            i++;
 
         }
+
         // for (int j = 0; i < arr.Length; j++)
         // {
         //     Console.WriteLine(arr[j]);
         // }
         conn.Close();
         Console.Read();
+        return arr;
+
 
 
     }
