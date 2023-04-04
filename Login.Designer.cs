@@ -52,6 +52,7 @@ partial class Login
         // list = oracle.ConnectOracle();
 
 
+
         // Console.WriteLine(list[0]);
         Label title1 = new Label();
         title1.Text = "LOGIN";

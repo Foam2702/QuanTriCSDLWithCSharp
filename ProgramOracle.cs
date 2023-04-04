@@ -60,7 +60,7 @@ public class MyOracle
     {
 
 
-        Console.WriteLine("Oracle");
+        //Console.WriteLine("Oracle");
 
 
         OracleConnection conn = DBUtils.GetDBConnection();
@@ -70,15 +70,15 @@ public class MyOracle
         {
             conn.Open();
 
-            Console.WriteLine(conn.ConnectionString, "Successful Connection");
+            //Console.WriteLine(conn.ConnectionString, "Successful Connection");
         }
         catch (Exception ex)
         {
-            Console.WriteLine("## ERROR: " + ex.Message);
+            //Console.WriteLine("## ERROR: " + ex.Message);
             Console.Read();
         }
 
-        Console.WriteLine("Connection successful!");
+        //Console.WriteLine("Connection successful!");
 
         OracleCommand cmd = new OracleCommand();
         cmd.CommandText = "select * from  THUVIEN";
@@ -111,8 +111,51 @@ public class MyOracle
 }
 public class test
 {
-    public string Export()
+    public List<string> Export()
     {
-        return "Run From Export";
+        //Console.WriteLine("Oracle");
+
+
+        OracleConnection conn = DBUtils.GetDBConnection();
+
+        Console.WriteLine("Get Connection: " + conn);
+        try
+        {
+            conn.Open();
+
+            //Console.WriteLine(conn.ConnectionString, "Successful Connection");
+        }
+        catch (Exception ex)
+        {
+            //Console.WriteLine("## ERROR: " + ex.Message);
+            Console.Read();
+        }
+
+        //Console.WriteLine("Connection successful!");
+
+        OracleCommand cmd = new OracleCommand();
+        cmd.CommandText = "select * from  THUVIEN";
+        cmd.Connection = conn;
+        OracleDataReader dr = cmd.ExecuteReader();
+        Console.OutputEncoding = Encoding.UTF8; //chuyển sang UTF8
+        List<string> arr = new List<string>();
+
+        while (dr.Read())
+        {
+
+            arr.Add(dr["TENTHUVIEN"].ToString());
+
+
+        }
+        // foreach (string str in arr)
+        // {
+        //     Console.WriteLine("FROM PROGRAM");
+        //     Console.WriteLine(str);
+        // }
+
+
+        conn.Close();
+        return arr;
+
     }
 }
