@@ -13,21 +13,14 @@ static class Program
 
         // To customize application configuration such as set high DPI settings or default font,
         // see https://aka.ms/applicationconfiguration.
-        // ApplicationConfiguration.Initialize();
+        ApplicationConfiguration.Initialize();
 
-        // Application.Run(new Login());
+        Application.Run(new Login());
         // Application.Run(new MainWindow();
         //Application.Run(new ListRoles());
         // Myfirst.Oracle test = new Oracle();
         // test.Test();
-        Myfirst.Oracle oracle = new Oracle();
-        List<string> list = new List<string>();
-        list = oracle.ConnectOracle();
 
-        foreach (string str in list)
-        {
-            Console.WriteLine(str);
-        }
 
 
         //Oracle.ConnectOracle();

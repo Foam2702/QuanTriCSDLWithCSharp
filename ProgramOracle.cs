@@ -53,7 +53,7 @@ using static Myfirst.DBOracleUtils;
 
 namespace Myfirst;
 
-public class Oracle
+public class MyOracle
 {
 
     public List<string> ConnectOracle()
@@ -109,4 +109,10 @@ public class Oracle
 
     }
 }
-
+public class test
+{
+    public string Export()
+    {
+        return "Run From Export";
+    }
+}
