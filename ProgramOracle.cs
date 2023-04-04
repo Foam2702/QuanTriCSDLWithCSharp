@@ -55,13 +55,11 @@ namespace Myfirst;
 
 public class Oracle
 {
-    public void Test()
-    {
-        Console.WriteLine("Oracle");
 
-    }
-    public string[] ConnectOracle()
+    public List<string> ConnectOracle()
     {
+
+
         Console.WriteLine("Oracle");
 
 
@@ -81,28 +79,31 @@ public class Oracle
         }
 
         Console.WriteLine("Connection successful!");
+
         OracleCommand cmd = new OracleCommand();
         cmd.CommandText = "select * from  THUVIEN";
         cmd.Connection = conn;
         OracleDataReader dr = cmd.ExecuteReader();
         Console.OutputEncoding = Encoding.UTF8; //chuyển sang UTF8
-        string[] arr = new string[20];
-        int i = 0;
+        List<string> arr = new List<string>();
+
         while (dr.Read())
         {
-            arr[i] = dr["TENTHUVIEN"].ToString();
 
-            i++;
+            arr.Add(dr["TENTHUVIEN"].ToString());
+
 
         }
-
-        // for (int j = 0; i < arr.Length; j++)
+        // foreach (string str in arr)
         // {
-        //     Console.WriteLine(arr[j]);
+        //     Console.WriteLine("FROM PROGRAM");
+        //     Console.WriteLine(str);
         // }
+
+
         conn.Close();
-        Console.Read();
         return arr;
+
 
 
 
